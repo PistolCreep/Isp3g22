@@ -1,0 +1,33 @@
+DIV {
+    width: 100%;
+    max-width: 80%;
+    height: 200px;
+    background: linear-gradient(crimson, gold);
+    background-position: 0 0;
+    border-radius: 30px;
+    border: 10px solid white;
+    animation: background 2s infinite alternate;
+  }
+  
+  @keyframes background {
+    50% {
+      background: linear-gradient(red, green);
+      background-position: 0 100px;
+    }
+  }
+  
+  /* Helpers */
+  BODY {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEE;
+    font-size: 16px;
+  }
+
+  body{
+    background-color: aqua;
+    background-image: url();
+  }
